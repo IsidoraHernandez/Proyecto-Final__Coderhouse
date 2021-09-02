@@ -1,0 +1,181 @@
+@charset "UTF-8";
+.general, h1, h3, p, .Nosotros, .Menu, .Carrusel, .Descripcion, .footer__menu, .Formulario, .contacto {
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  list-style-type: none; }
+
+h1 {
+  font-weight: 600;
+  font-size: 50px;
+  color: #0f1f3d; }
+
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #7a7b7d; }
+
+p {
+  font-weight: 200;
+  font-size: 25px;
+  color: #7a7b7d;
+  width: 400px; }
+
+.Nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .Nosotros p {
+    font-weight: 200;
+    font-size: 18px;
+    color: #7a7b7d;
+    width: 700px; }
+
+.Menu {
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%; }
+  .Menu ul li {
+    display: inline; }
+  .Menu a {
+    color: #0f1f3d; }
+
+.Carrusel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .Carrusel div {
+    height: 350px;
+    margin: 50px;
+    width: 195px;
+    align-items: center; }
+  .Carrusel h5 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #7a7b7d; }
+  .Carrusel p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #7a7b7d; }
+
+.Descripcion {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #f0f0f0;
+  height: 300px;
+  font-size: 30px;
+  color: #7a7b7d;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .Descripcion p {
+    font-weight: 200;
+    font-size: 25px;
+    text-justify: auto; }
+
+.titulo_catalogo {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.footer__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 15px;
+  font-weight: 400;
+  list-style-type: none;
+  height: 100px;
+  background-color: #1d1d1f;
+  align-items: center; }
+  .footer__menu a {
+    color: white; }
+
+.Formulario {
+  display: flex;
+  font-weight: 400;
+  font-size: 15px;
+  color: #7a7b7d;
+  list-style-type: none;
+  flex-direction: column;
+  width: 500px;
+  justify-content: right; }
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px; }
+  .contacto .Formulario {
+    font-weight: 400;
+    font-size: 15px;
+    color: #7a7b7d;
+    width: 500px;
+    text-align: left; }
+
+.container-fluid .row {
+  color: #0f1f3d;
+  padding-bottom: 30px; }
+  .container-fluid .row .producto__imagenprincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  .container-fluid .row .producto__nombre h1 {
+    padding-top: 50px;
+    text-align: left;
+    font-size: 25px; }
+  .container-fluid .row .producto__nombre h3 {
+    text-align: left;
+    font-size: 18px; }
+  .container-fluid .row .producto__nombre p {
+    text-align: left;
+    font-size: 15px; }
+  .container-fluid .row .producto__precio h3 {
+    text-align: left;
+    font-size: 18px; }
+  .container-fluid .row .producto__precio p {
+    text-align: left;
+    font-size: 15px; }
+  .container-fluid .row .producto__tamaño h3 {
+    text-align: left;
+    font-size: 18px; }
+  .container-fluid .row .producto__tamaño p {
+    text-align: left;
+    font-size: 15px; }
+  .container-fluid .row .prodcuto__materiales h3 {
+    text-align: left;
+    font-size: 18px; }
+  .container-fluid .row .prodcuto__materiales p {
+    text-align: left;
+    font-size: 15px; }
+  .container-fluid .row .producto__envio h3 {
+    text-align: left;
+    font-size: 18px; }
+  .container-fluid .row .producto__envio p {
+    text-align: left;
+    font-size: 15px; }
+
+.imagenes-catalogo .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .imagenes-catalogo .col h5 {
+    font-size: 20px;
+    font-weight: 600; }
+  .imagenes-catalogo .col p {
+    font-size: 18px;
+    font-weight: 200; }
+  .imagenes-catalogo .col .Imagen_Producto:hover {
+    transform: scale(1.2, 1.2); }
